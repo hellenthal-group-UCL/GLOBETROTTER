@@ -1,0 +1,3 @@
+example/BrahuiYorubaSimulationChrom20.samples.out.gz
+example/BrahuiYorubaSimulationChrom21.samples.out.gz
+example/BrahuiYorubaSimulationChrom22.samples.out.gz

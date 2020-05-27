@@ -1,0 +1,20 @@
+prop.ind: 0
+bootstrap.date.ind: 1
+null.ind: 0
+input.file.ids: example/BrahuiYorubaSimulation.idfile.txt
+input.file.copyvectors: example/BrahuiYorubaSimulation.copyvectors.txt
+save.file.main: example/BrahuiYorubaSimulation.globetrotter.main
+save.file.bootstraps: example/BrahuiYorubaSimulation.globetrotter.boot
+copyvector.popnames: Adygei Armenian Balochi BantuKenya BantuSouthAfrica Basque Bedouin Belorussian BiakaPygmy Bulgarian Burusho Cambodian Chuvash Colombian Cypriot Dai Daur Druze EastSicilian Egyptian English Ethiopian EthiopianJew Finnish French Georgian GermanyAustria Greek Hadza Han HanNchina Hazara Hezhen Hungarian Indian IndianJew Iranian Ireland Japanese Jordanian Kalash Karitiana Lahu Lezgin Lithuanian Makrani Mandenka Maya MbutiPygmy Melanesian Miao Mongola Moroccan Mozabite Myanmar Naxi NorthItalian Norwegian Orcadian Oroqen Palestinian Papuan Pathan Pima Polish Romanian Russian Sandawe SanKhomani SanNamibia Sardinian Saudi Scottish She Sindhi SouthItalian Spanish Surui Syrian Tu Tujia Tunisian Turkish Tuscan UAE Uygur Uzbekistani Welsh WestSicilian Xibo Yakut Yemeni Yi
+surrogate.popnames: Adygei Armenian Balochi BantuKenya BantuSouthAfrica Basque Bedouin Belorussian BiakaPygmy Bulgarian Burusho Cambodian Chuvash Colombian Cypriot Dai Daur Druze EastSicilian Egyptian English Ethiopian EthiopianJew Finnish French Georgian GermanyAustria Greek Hadza Han HanNchina Hazara Hezhen Hungarian Indian IndianJew Iranian Ireland Japanese Jordanian Kalash Karitiana Lahu Lezgin Lithuanian Makrani Mandenka Maya MbutiPygmy Melanesian Miao Mongola Moroccan Mozabite Myanmar Naxi NorthItalian Norwegian Orcadian Oroqen Palestinian Papuan Pathan Pima Polish Romanian Russian Sandawe SanKhomani SanNamibia Sardinian Saudi Scottish She Sindhi SouthItalian Spanish Surui Syrian Tu Tujia Tunisian Turkish Tuscan UAE Uygur Uzbekistani Welsh WestSicilian Xibo Yakut Yemeni Yi
+target.popname: BrahuiYorubaSimulation
+num.mixing.iterations: 5
+props.cutoff: 0.001
+bootstrap.num: 20
+num.admixdates.bootstrap: 1
+num.surrogatepops.perplot: 3
+curve.range: 1 50
+bin.width: 0.1
+xlim.plot: 0 50
+prop.continue.ind: 0
+haploid.ind: 0

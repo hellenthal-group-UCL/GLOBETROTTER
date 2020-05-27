@@ -1,0 +1,3 @@
+example/BrahuiYorubaSimulationChrom20.recomrates
+example/BrahuiYorubaSimulationChrom21.recomrates
+example/BrahuiYorubaSimulationChrom22.recomrates
