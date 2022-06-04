@@ -243,7 +243,7 @@ void data_read(int *ploidy, int * ind_id_vec, char **filenameSAMPread, char **fi
 	ind_id_vec_new[i][h]=rec_ind_first_hap_index_vec[ind_id_vec[(i*num_chrom+h)]];
     }
   nhaps=count/(nsamples+1);
-  if (nhaps != (((double)count)/(nsamples+1)))
+  if (nhaps != (((double)count)/(nsamples+1)) && nhaps != (((double)count-1)/(nsamples+1)))
     {
       printf("something wrong with file %s. Exiting....\n",filenameSAMP);
       exit(1);
@@ -660,7 +660,7 @@ void data_read_null(int *ploidy, char **filenameSAMPread, char **filenameRECOMre
     }
   gzclose(fd2);
   nhaps=count/(nsamples+1);
-  if (nhaps != (((double)count)/(nsamples+1)))
+  if (nhaps != (((double)count)/(nsamples+1)) && nhaps != (((double)count-1)/(nsamples+1)))
     {
       printf("something wrong with file %s. Exiting....\n",filenameSAMP);
       exit(1);
